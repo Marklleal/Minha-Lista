@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #B3FFE4, rgb(167, 235, 155));
+    margin: 0px;
+}
+
+main {
+    background-color: rgba(240, 248, 255, 0.986);
+    padding: 15px;
+    margin: auto;
+    min-width: 400px;
+    max-width: 1000px;
+    box-shadow: 10px 10px 10px #729c63ad;
+    border-radius: 25px;
+}
+
+hr {
+    color: #0000008f;
+    border: solid;
+    border-top: 3px double rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    display: none;
+}
+
+h1 {
+    color: #284a88;
+    text-align: center;
+    text-shadow: 1.5px 1.5px 1.5px #1c345fb2;
+    font-size: 42px;
+    margin: auto;
+    /*user-select: none; serve para impossibilitar o usuário de copiar o texto*/
+}
+
+h2 {
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgba(143, 101, 46, 0.61);
+    color:rgba(192, 135, 61, 0.705)
+}
+
+a {
+    text-decoration: none;
+    user-select: contain;
+    font-weight: 600;
+    padding: 1em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #df0505;
+}
+
+ul > strong {
+    font-size: 20px;
+}
+
+ol > li {
+    font-size: 20px;
+}
+
+ol > li > ul > a > li {
+    font-size: 16px;
+}
+
+ol > li > ol > li {
+    font-size: 20px;
+}
+
+ol > li > ol > li > ul > a > li {
+    font-size: 16px;
+}
+
+ol > li > ul > ul > a > li {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #47703998;
+    margin: 2em 0em 0em 0em;
+    padding: 5px;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+footer > p > span {
+    font-weight: bold;
+}
